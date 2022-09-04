@@ -1,40 +1,58 @@
-/* h1 {
-    color:blueviolet;
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  /* box-sizing: border-box; */
+  background: transparent;
+  font-family: inherit;
 }
 
-#blue{
-    color:aqua;
-}
-p {
-    color:blue;
-    font-size: ;
+a {
+  text-decoration: none;
 }
 
-h1.purple {   
-    color: purple;
+a img {
+  border: none;
 }
 
-p.purple {
-    color:pink;
-} */
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
 
 body {
-    color:brown;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
- 
+  color: brown;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  width: 100vw;
+  height: 100vh;
 }
 
-div {
-    color:crimson;
+span {
+  display: block;
+  margin-bottom: 20px;
 }
 
-.container-1 {
-    background-color: black;
-    height: 100px;
-    font-weight: 300;
-}
-
-p {
-    height:80px;
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  padding: 30px;
 }
